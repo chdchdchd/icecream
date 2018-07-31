@@ -1,7 +1,9 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+body{
+    margin: 0;
+}
 .header{
     text-align: center;
 }
@@ -9,10 +11,20 @@
     margin-left: auto;
     margin-right: auto;
 }
-img{
+.header img{
     height: 250px;
     
 }
 .header h1{
     display: none;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #64747c;
+    color: white;
+    text-align: center;
+    
 }
